@@ -57,6 +57,6 @@ int main(){
     else{
         printf("Signature Verification Failed!!\n");
     }
-    printf("\n\n  -By Spandan Kandel");
+    printf("\n\n  -By Krishna Aryal");
     return 0;
 }
