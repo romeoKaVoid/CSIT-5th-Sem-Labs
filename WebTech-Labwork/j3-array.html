@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Array</title>
+</head>
+<body>
+    <h2>Display 2D Array in HTML table</h2>
+    <table border="1" cellspacing="0" id="myTable"></table>
+    <script>
+        let arr = [
+            ["Name","Age","Address"],
+            ["Krishna",22,"Tarkeshwor"],
+            ["Prasanna",20,"Kavresthali"],
+            ["Ranjan",18,"Gaurighat"],
+            ["Kushal",21,"Tarkeshwor"]
+        ];
+
+        let table = document.getElementById("myTable");
+
+        for(let i = 0; i<arr.length; i++){
+            let row = table.insertRow();
+            for(let j = 0; j<arr[i].length;j++){
+                let cell = row.insertCell();
+                cell.innerHTML = arr[i][j];
+            }
+        }
+    </script>
+</body>
+</html>

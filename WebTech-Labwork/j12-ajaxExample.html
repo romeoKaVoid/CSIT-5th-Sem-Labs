@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Example</title>
+</head>
+
+<body>
+    <button id="getDataBtn">Get Data</button>
+    <div id="result"></div>
+    <script>
+        document.getElementById('getDataBtn').addEventListener('click', function () {
+            let xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://jsonplaceholder.typicode.com/todos/1', true);
+            xhr.onload = function () {
+                if (xhr.status == 200) {
+                    let responseData = JSON.parse(xhr.responseText);
+                    document.getElementById('result').innerHTML = "Loading...";
+                    document.getElementById('result').innerHTML =
+                        `<p>User ID: ${responseData.userId}<br>
+                        Title: ${responseData.title}<br>
+                        Completed: ${responseData.completed}</p>`;
+                }
+            };
+            xhr.send();
+        });
+    </script>
+</body>
+
+</html>

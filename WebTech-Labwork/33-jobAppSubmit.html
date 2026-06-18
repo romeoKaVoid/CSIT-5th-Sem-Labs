@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application From</title>
+</head>
+<body>
+    <h2>Please Fill out the given form to apply for JOB:</h2>
+    <form action="assets/submit.html" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </p>
+        <p>
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your valid email" required>
+        </p>
+        <p>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+        </p>
+        <p>
+            <label for="position">Avalailable Posts:</label>
+            <select name="position" id="position" required>
+            <option value="">--Select the post you want to apply for--</option>
+            <option value="support">IT Support</option>
+            <option value="developer">Software Developer</option>
+            <option value="design">UI/UX Designer</option>
+            <option value="writer">Content Writer</option>
+            </select>
+        </p>
+        <p>
+            <label for="experience">Skills and abilities:</label>
+            <textarea name="skills" id="skills" rows="4" placeholder="Enter about youeself, about your skills and abilities..."></textarea>
+        </p>
+        <p>
+            <label for="resume">Upload Resume (pdf or docx): </label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+        </p>
+        <p>
+            <label for="cover">Cover Letter (Optional): </label>
+            <textarea name="cover" id="cover" rows="4" placeholder="Write a cover letter(optional)"></textarea>
+        </p>
+        <p>
+            <button type="submit">Submit Application</button>
+        </p>
+    </form>
+</body>
+</html>

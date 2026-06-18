@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parse JSON with JavaScript</title>
+</head>
+<body>
+    <script>
+        let jsonStr = '{"name":"Krishna Aryal","age":"22","address":"Kathmandu","skills":["HTML"," CSS"," C"," Basic Python"]}';
+        let parseData = JSON.parse(jsonStr);
+        document.write("<p>Name: " + parseData.name + "<br>"); 
+        document.write("<p>Age: " + parseData.age + "<br>"); 
+        document.write("<p>Address: " + parseData.address + "<br>"); 
+        document.write("<p>Skills: " + parseData.skills + "<br>"); 
+    </script>
+</body>
+</html>

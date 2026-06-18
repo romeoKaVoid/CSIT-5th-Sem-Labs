@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Box Examples</title>
+</head>
+<body>
+    <script>
+        alert("Hey! Krishna. This message is for alert.");
+        var result = confirm("Wanna proceed further from here?");
+        if(result){
+            alert("Yeahhhh! You said yes!!");
+        }else{
+            alert("Okai! You said no....!");
+        }
+        var userInput = prompt("Please enter your name: ","Enter your name here..");
+        if(userInput!=null){
+            alert("Hello, " + userInput + "!");
+        }else{
+            alert("You clicked cancel or not entered anything!!");
+        }
+    </script>
+</body>
+</html>

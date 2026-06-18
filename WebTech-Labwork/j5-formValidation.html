@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2>Form Validation</h2>
+    <form onsubmit="validateForm()" id="myForm">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <span id="nameError" class="error"></span><br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age">
+        <span id="ageError" class="error"></span><br><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" name="phone">
+        <span id="phoneError" class="error"></span><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span><br><br>
+
+        <label for="colleges">Colleges: </label>
+        <select name="colleges" id="colleges">
+            <option value="college1">KMC</option>
+            <option value="college2">PMC</option>
+            <option value="college3">ASCOL</option>
+        </select><br>
+<br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <input type="radio" id="other" name="gender" value="other">Other <br>
+        <span id="genderError" class="error"></span><br>
+
+        <label for="checkbox">
+            <input type="checkbox" name="terms" id="terms"> I accept all the terms
+        </label>
+        <span id="termsError" class="error"></span><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+<script>
+    function validateForm(){
+
+    let name = document.getElementById("name").value;
+    let age = document.getElementById("age").value;
+    let phone = document.getElementById("phone").value;
+    let email = document.getElementById("email").value;
+    let colleges = document.getElementById("colleges").value;
+    let gender = document.querySelector('input[name="gender"]:checked');
+    let terms = document.getElementById("terms").checked;
+
+    let namePattern = /^[A-Za-z\s]{4,}$/;
+    let phonePattern = /^(98|97)[0-9]{8}$/;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    let valid = true;
+
+    // Name validation
+    if(!namePattern.test(name)){
+    document.getElementById("nameError").innerHTML = alert("Name should be at least 5 characer long!!");
+    valid = false;
+    }else{
+    document.getElementById("nameError").innerHTML = "";
+    }
+
+    // Age validation
+    if(age < 1 || age > 50){
+    document.getElementById("ageError").innerHTML = alert("Age must be between 1 and 50");
+    valid = false;
+    }else{
+    document.getElementById("ageError").innerHTML = "";
+    }
+
+    // Phone validation
+    if(!phonePattern.test(phone)){
+    document.getElementById("phoneError").innerHTML = alert("Phone must start with 98 or 97 and be 10 digits");
+    valid = false;
+    }else{
+    document.getElementById("phoneError").innerHTML = "";
+    }
+
+    // Email validation
+    if(!emailPattern.test(email)){
+    document.getElementById("emailError").innerHTML = alert("Invalid Email");
+    valid = false;
+    }else{
+    document.getElementById("emailError").innerHTML = "";
+    }
+
+    //Colleges Validation
+    if(colleges===""){
+        alert("Please select a college");
+        valid = false;
+    }else{
+    document.getElementById("collegesError").innerHTML = "";
+    }
+
+    // Gender validation
+    if(!gender){
+    document.getElementById("genderError").innerHTML = alert("Please select a gender.");
+    valid = false;
+    }else{
+    document.getElementById("genderError").innerHTML = "";
+    }
+
+    // Terms validation
+    if(!terms){
+    document.getElementById("termsError").innerHTML = alert("Please accept the terms.");
+    valid = false;
+    }else{
+    document.getElementById("termsError").innerHTML = "";
+    }
+
+    alert("Form Submitted Successfully!!");
+    return valid;
+    return true;
+}
+</script>
+</body>
+</html>

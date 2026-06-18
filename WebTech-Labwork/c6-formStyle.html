@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset{
+            border: 2px solid rgb(144, 98, 98);
+            padding: 10px;
+            margin: 20px;
+            width: 400px;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type='text']:focus,textarea:focus{
+            background-color: yellow;
+            color: blue;
+        }
+        select:checked{
+            height: 150px;
+        }
+        input:invalid,textarea:invalid{
+            border: 2px solid red;
+        }
+        input:valid,textarea:valid{
+            border: 2px solid green;
+        }
+        input,textarea,select{
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        input[type='checkbox']{
+            width: auto;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Form Styling</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="text" placeholder="Enter your name" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <label for="checkbox">Checkbox: </label>
+            <input type="checkbox" id="checkbox">
+            <label for="select">Select: </label>
+            <select id="select" required>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <label for="textarea">Textarea: </label>
+            <textarea id="textarea" rows="4" required></textarea>
+
+            <label for="date">Date: </label>
+            <input type="date" id="date" required>
+
+            <label for="number">Number: </label>
+            <input type="number" id="number" required>
+
+            <label for="color">Color: </label>
+            <input type="color" id="color" required>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

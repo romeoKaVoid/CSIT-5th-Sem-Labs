@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Effects</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #myImage{
+            width: 200px;
+            height: 200px;
+            border: 5px solid lightblue;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="showHideBtn">Toggle Image</button>
+    <button id="fadeInOutBtn">Fade In/Out</button>
+    <button id="stopBtn">Stop Animation</button>
+    <img src="assets/image1.jpg" id="myImage" alt="Sample Image">
+    <script>
+        //Show/Hide Effect
+        $('#showHideBtn').click(function(){
+            $('#myImage').toggle('slow');
+        });
+
+        //Fade In/Out Effect
+        $('#fadeInOutBtn').click(function(){
+            $('#myImage').fadeToggle('slow');
+        });
+
+        //Stop Animation
+        $('#stopBtn').click(function(){
+            $('#myImage').stop();
+        });
+    </script>
+</body>
+</html>

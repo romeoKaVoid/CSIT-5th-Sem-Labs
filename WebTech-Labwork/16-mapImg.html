@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client-Side and Server-Side Image Map</title>
+</head>
+<body>
+    <h2>Using map and area for Client-Side Image Map</h2>
+    <img src="assets/image3.jpg" alt="Workplace" usemap="#workmap" width="500px" />
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="assets/rect.html" />
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://example.com/" />
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="assets/circle.html" />
+    </map>
+    <h2>Using ismap for Server-Side Image Map</h2>
+    <a href="assets/process.php">
+        <img src="assets/image1.jpg" alt="Workplace" ismap width="500px">
+    </a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects and Constructors</title>
+</head>
+<body>
+    <h2>JavaScript Objects Examples</h2>
+    <p id="output"></p>
+    <script>
+        function Student(name, age, course){
+            this.name = name;
+            this.age = age;
+            this.course = course;
+        }
+
+        let student1 = new Student("Krishna", 22, "BSc. CSIT");
+        let student2 = new Student("Prasanna", 20, "BSc. CSIT");
+
+        document.getElementById("output").innerHTML="Student 1: " + student1.name + ", Age: " + student1.age + ", Course: " + student1.course + "<br>" + "Student 2: " + student2.name + ", Age: " + student2.age + ", Course: " + student2.course;
+    </script>
+</body>
+</html>

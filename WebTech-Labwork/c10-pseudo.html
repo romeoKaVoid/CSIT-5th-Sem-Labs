@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        h2{
+            color: red;
+            text-decoration: underline;
+        }
+        p::first-letter{
+            font-size: 35px;
+            color: rgb(151, 18, 18);
+        }
+        p::first-line{
+            font-weight: bold;
+            color: rgb(54, 33, 8);
+        }
+        p::after{
+            content: "-  Read More";
+            color: rgb(3, 158, 19);
+        }
+        p::selection{
+            background: yellow;
+            color: black;
+        }
+    </style>
+</head> 
+<body>
+    <h2>Examples of Pseudo Elements</h2>
+    <p>CSS pseudo-elements allow developers to style specific parts of content in a webpage .They help improve the appearance of text without adding extra HTML elements.</p>
+</body>
+</html>

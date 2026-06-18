@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Built In Objects</title>
+</head>
+<body>
+    <h2>JavaScript Built-in Objects Example</h2>
+    <p id="output"></p>
+    <script>
+        let text = " ";
+
+        // Array Methods
+        let fruits = ["Apple", "Banana", "Mango"];
+        fruits.push("Orange");  //add element
+        fruits.pop(); //remove element
+
+        text+= "<b>ARRAY Methods</b><br>";
+        text += "Array Elements: " + fruits.join(", ") + "<br><br>";
+
+        // Date Methods
+        let today = new Date();
+        text += "<b>DATE Methods</b><br>";
+        text += "Current Date: " + today.getDate() + "<br>";
+        text += "Current Month: " + (today.getMonth()+1) + "<br>";
+        text += "Current Year: " + today.getFullYear() + "<br><br>";
+
+        // String Methods
+        let name = "Krishna Aryal";
+        text += "<b>STRING Methods:</b><br>";
+        text += "Length: " + name.length + "<br>";
+        text += "Uppercase: " + name.toUpperCase() + "<br>";
+        text += "Substring: " + name.substring(0,7) + "<br><br>";
+
+        // Math Methods
+        text += "<b>MATH Methods</b><br>";
+        text += "Square root of 2500: " + Math.sqrt(2500) + "<br>";
+        text += "Random Number: " + Math.random() + "<br>";
+        text += "Power (5^3): " + Math.pow(5,3) + "<br>";
+
+        document.getElementById("output").innerHTML = text;
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table Example</title>
+</head>
+<body>
+    <h2>Nested Table with Rowspan and Colspan</h2>
+    <table border="1" cellspacing="0" width="50%">
+        <tr>
+            <th>Student Information</th>
+        </tr>
+        <tr>
+            <td>Name: Krishna Aryal</td>
+            <!-- <td>Krishna</td> -->
+        </tr>
+        <tr>
+            <td>Class: 12</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" cellspacing="0" width="75%">
+                    <tr>
+                        <th rowspan="2">Subject</th>
+                        <th colspan="2">Marks</th>
+                    </tr>
+                    <tr>
+                        <th>Th</th>
+                        <th>Pr</th>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>95</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>90</td>
+                        <td>28</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
