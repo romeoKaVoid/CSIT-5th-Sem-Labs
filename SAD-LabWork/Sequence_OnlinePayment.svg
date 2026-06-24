@@ -1,0 +1,56 @@
+<svg width="1080" height="1010" viewBox="0 0 1080 1010" xmlns="http://www.w3.org/2000/svg">
+<rect width="1080" height="1010" fill="#ffffff"/>
+<defs>
+<marker id="sa_solid" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A3A37"/></marker>
+<marker id="sa_open" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#3A3A37" stroke-width="1.6"/></marker>
+</defs>
+<rect x="30.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="110" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Customer</text>
+<line x1="110" y1="72" x2="110" y2="970" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="300.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="380" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Merchant App</text>
+<line x1="380" y1="72" x2="380" y2="970" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="580.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="660" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Gateway</text>
+<line x1="660" y1="72" x2="660" y2="970" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="860.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="940" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Bank / Issuer</text>
+<line x1="940" y1="72" x2="940" y2="970" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<line x1="110" y1="110" x2="380" y2="110" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="245.0" y="102" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">1: Add items &amp; click Pay</text>
+<line x1="380" y1="165" x2="660" y2="165" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="520.0" y="157" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">2: Create order request</text>
+<line x1="660" y1="220" x2="380" y2="220" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="212" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">3: Order created (order ID, amount)</text>
+<line x1="380" y1="275" x2="110" y2="275" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="245.0" y="267" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">4: Show payment options</text>
+<line x1="110" y1="330" x2="380" y2="330" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="245.0" y="322" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">5: Select method &amp; confirm payment</text>
+<line x1="380" y1="385" x2="660" y2="385" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="520.0" y="377" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">6: Send payment request</text>
+<line x1="660" y1="440" x2="940" y2="440" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="800.0" y="432" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">7: Authorize payment</text>
+<line x1="940" y1="495" x2="660" y2="495" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="800.0" y="487" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">8: Authorization response</text>
+<text x="670" y="572" font-family="Arial" font-size="11.5" fill="#222">9: Capture &amp; settle payment</text>
+<path d="M660,580 h70 v34 h-66" fill="none" stroke="#3A3A37" stroke-width="1.5"/>
+<polygon points="660,610 670,605 670,615" fill="#3A3A37"/>
+<line x1="660" y1="659" x2="380" y2="659" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="651" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">10: Payment success</text>
+<text x="390" y="701" font-family="Arial" font-size="11.5" fill="#222">11: Update order status</text>
+<path d="M380,709 h70 v34 h-66" fill="none" stroke="#3A3A37" stroke-width="1.5"/>
+<polygon points="380,739 390,734 390,744" fill="#3A3A37"/>
+<line x1="380" y1="788" x2="110" y2="788" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="245.0" y="780" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">12: Show payment success</text>
+<line x1="660" y1="883" x2="380" y2="883" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="875" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">9: Payment failed</text>
+<line x1="380" y1="933" x2="110" y2="933" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="245.0" y="925" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">10: Show payment failure message</text>
+<rect x="60" y="535" width="730" height="433" fill="none" stroke="#5B5A55" stroke-width="1.3"/>
+<path d="M60,535 h42 v14 l-8,8 h-34 z" fill="#FFF3D6" stroke="#9C7A2E" stroke-width="1.2"/>
+<text x="68" y="550" font-family="Arial" font-size="11" font-weight="700" fill="#6B5320">alt</text>
+<text x="112" y="550" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[authorization approved]</text>
+<line x1="60" y1="833" x2="790" y2="833" stroke="#5B5A55" stroke-width="1.1" stroke-dasharray="7,4"/>
+<text x="70" y="848" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[authorization declined]</text>
+<text x="20" y="995" font-family="Arial" font-size="12" fill="#888780">fig: Sequence Diagram — Online Payment System</text>
+</svg>

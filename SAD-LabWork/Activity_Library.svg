@@ -1,0 +1,81 @@
+<svg width="1000" height="980" viewBox="0 0 1000 980" xmlns="http://www.w3.org/2000/svg">
+<rect width="1000" height="980" fill="#ffffff"/>
+<defs><marker id="aarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5F5E5A" stroke-width="1.8"/></marker></defs>
+<rect x="20" y="30" width="280" height="920" fill="#EAF3FC" stroke="#C7C5BC" stroke-width="1"/>
+<rect x="20" y="30" width="280" height="36" fill="#185FA5"/>
+<text x="160.0" y="53" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#ffffff">Member</text>
+<rect x="300" y="30" width="280" height="920" fill="#FCEFE3" stroke="#C7C5BC" stroke-width="1"/>
+<rect x="300" y="30" width="280" height="36" fill="#A85B1F"/>
+<text x="440.0" y="53" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#ffffff">Library System</text>
+<rect x="580" y="30" width="400" height="920" fill="#EAF7EC" stroke="#C7C5BC" stroke-width="1"/>
+<rect x="580" y="30" width="400" height="36" fill="#1F7A37"/>
+<text x="780.0" y="53" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#ffffff">Librarian</text>
+<circle cx="160.0" cy="95" r="11" fill="#2C2C2A"/>
+<rect x="55.0" y="184.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="160.0" y="214" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Search for Book</text>
+<rect x="335.0" y="184.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="440.0" y="214" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Look Up Catalog</text>
+<polygon points="440.0,302.0 510.0,340 440.0,378.0 370.0,340" fill="#FFF8E1" stroke="#9C7A2E" stroke-width="1.3"/>
+<text x="440.0" y="336" text-anchor="middle" font-family="Arial" font-size="11" fill="#6B5320">Book</text>
+<text x="440.0" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#6B5320">Available?</text>
+<rect x="55.0" y="444.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="160.0" y="466" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Select Book &amp;</text>
+<text x="160.0" y="482" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Request Issue</text>
+<rect x="815.0" y="314.0" width="170" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="900" y="336" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Notify Not</text>
+<text x="900" y="352" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Available</text>
+<circle cx="900" cy="440" r="14" fill="none" stroke="#2C2C2A" stroke-width="1.6"/>
+<circle cx="900" cy="440" r="9" fill="#2C2C2A"/>
+<rect x="625.0" y="444.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="730" y="466" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Verify Member &amp;</text>
+<text x="730" y="482" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Book Record</text>
+<polygon points="730,562.0 800.0,600 730,638.0 660.0,600" fill="#FFF8E1" stroke="#9C7A2E" stroke-width="1.3"/>
+<text x="730" y="589" text-anchor="middle" font-family="Arial" font-size="11" fill="#6B5320">Member</text>
+<text x="730" y="603" text-anchor="middle" font-family="Arial" font-size="11" fill="#6B5320">Valid &amp; No</text>
+<text x="730" y="617" text-anchor="middle" font-family="Arial" font-size="11" fill="#6B5320">Due Fine?</text>
+<rect x="815.0" y="574.0" width="170" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="900" y="604" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Reject Request</text>
+<circle cx="900" cy="690" r="14" fill="none" stroke="#2C2C2A" stroke-width="1.6"/>
+<circle cx="900" cy="690" r="9" fill="#2C2C2A"/>
+<rect x="625.0" y="704.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="730" y="726" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Issue Book &amp;</text>
+<text x="730" y="742" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Update Records</text>
+<rect x="55.0" y="704.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="160.0" y="734" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Receive Book</text>
+<rect x="55.0" y="824.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="160.0" y="846" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Return Book</text>
+<text x="160.0" y="862" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Before Due Date</text>
+<rect x="625.0" y="824.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="730" y="846" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Check Due Date &amp;</text>
+<text x="730" y="862" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Calculate Fine</text>
+<rect x="335.0" y="824.0" width="210" height="52" rx="12" fill="#ffffff" stroke="#444441" stroke-width="1.3"/>
+<text x="440.0" y="846" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Update Book</text>
+<text x="440.0" y="862" text-anchor="middle" font-family="Arial" font-size="12.5" fill="#2C2C2A">Record</text>
+<circle cx="440.0" cy="940" r="14" fill="none" stroke="#2C2C2A" stroke-width="1.6"/>
+<circle cx="440.0" cy="940" r="9" fill="#2C2C2A"/>
+<path d="M 160.0,106 L 160.0,184.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 265.0,210 L 335.0,210 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 440.0,236.0 L 440.0,302.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 510.0,340 L 815.0,340 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<rect x="804.4" y="327" width="21.2" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="815.0" y="340" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" fill="#333" font-weight="600">no</text>
+<path d="M 900,366.0 L 900,426 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 440.0,378.0 L 440.0,410 L 160.0,410 L 160.0,444.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<rect x="146.1" y="397" width="27.799999999999997" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="160.0" y="410" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" fill="#333" font-weight="600">yes</text>
+<path d="M 265.0,470 L 625.0,470 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 730,496.0 L 730,562.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 800.0,600 L 815.0,600 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<rect x="804.4" y="587" width="21.2" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="815.0" y="600" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" fill="#333" font-weight="600">no</text>
+<path d="M 900,626.0 L 900,676 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 730,638.0 L 730,704.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<rect x="716.1" y="691.0" width="27.799999999999997" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="730" y="704.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" fill="#333" font-weight="600">yes</text>
+<path d="M 625.0,730 L 265.0,730 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 160.0,756.0 L 160.0,824.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 160.0,876.0 L 160.0,905 L 730,905 L 730,876.0 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 625.0,850 L 545.0,850 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<path d="M 440.0,876.0 L 440.0,926 " fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#aarrow)"/>
+<text x="20" y="965" font-family="Arial" font-size="12" fill="#888780">fig: Activity Diagram — Library Management System</text>
+</svg>

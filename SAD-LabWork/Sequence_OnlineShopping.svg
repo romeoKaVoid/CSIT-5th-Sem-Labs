@@ -1,0 +1,50 @@
+<svg width="1080" height="860" viewBox="0 0 1080 860" xmlns="http://www.w3.org/2000/svg">
+<rect width="1080" height="860" fill="#ffffff"/>
+<defs>
+<marker id="sa_solid" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A3A37"/></marker>
+<marker id="sa_open" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#3A3A37" stroke-width="1.6"/></marker>
+</defs>
+<rect x="40.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="120" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Customer</text>
+<line x1="120" y1="72" x2="120" y2="820" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="320.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="400" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Web Application</text>
+<line x1="400" y1="72" x2="400" y2="820" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="600.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="680" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Gateway</text>
+<line x1="680" y1="72" x2="680" y2="820" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="860.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="940" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Bank Server</text>
+<line x1="940" y1="72" x2="940" y2="820" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<line x1="120" y1="110" x2="400" y2="110" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="260.0" y="102" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">1: Add items to cart &amp; click checkout</text>
+<text x="410" y="157" font-family="Arial" font-size="11.5" fill="#222">2: Show order summary &amp; payment options</text>
+<path d="M400,165 h70 v34 h-66" fill="none" stroke="#3A3A37" stroke-width="1.5"/>
+<polygon points="400,195 410,190 410,200" fill="#3A3A37"/>
+<line x1="120" y1="244" x2="400" y2="244" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="260.0" y="236" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">3: Select payment method &amp; confirm</text>
+<line x1="400" y1="299" x2="680" y2="299" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="540.0" y="291" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">4: Send payment request (amount, details)</text>
+<line x1="680" y1="354" x2="940" y2="354" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="810.0" y="346" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">5: Authorize payment</text>
+<line x1="940" y1="409" x2="680" y2="409" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="810.0" y="401" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">6: Authorization response</text>
+<line x1="680" y1="499" x2="400" y2="499" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="540.0" y="491" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">7: Payment success</text>
+<text x="410" y="541" font-family="Arial" font-size="11.5" fill="#222">8: Update order &amp; inventory</text>
+<path d="M400,549 h70 v34 h-66" fill="none" stroke="#3A3A37" stroke-width="1.5"/>
+<polygon points="400,579 410,574 410,584" fill="#3A3A37"/>
+<line x1="400" y1="628" x2="120" y2="628" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="260.0" y="620" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">9: Send order confirmation</text>
+<line x1="680" y1="723" x2="400" y2="723" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="540.0" y="715" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">7: Payment failed</text>
+<line x1="400" y1="773" x2="120" y2="773" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="260.0" y="765" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">8: Show payment failure message</text>
+<rect x="60" y="449" width="750" height="359" fill="none" stroke="#5B5A55" stroke-width="1.3"/>
+<path d="M60,449 h42 v14 l-8,8 h-34 z" fill="#FFF3D6" stroke="#9C7A2E" stroke-width="1.2"/>
+<text x="68" y="464" font-family="Arial" font-size="11" font-weight="700" fill="#6B5320">alt</text>
+<text x="112" y="464" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[payment approved]</text>
+<line x1="60" y1="673" x2="810" y2="673" stroke="#5B5A55" stroke-width="1.1" stroke-dasharray="7,4"/>
+<text x="70" y="688" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[payment declined]</text>
+<text x="20" y="845" font-family="Arial" font-size="12" fill="#888780">fig: Sequence Diagram — Online Shopping</text>
+</svg>

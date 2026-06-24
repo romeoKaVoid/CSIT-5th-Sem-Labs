@@ -1,0 +1,94 @@
+<svg width="980" height="1050" viewBox="0 0 980 1050" xmlns="http://www.w3.org/2000/svg">
+<rect width="980" height="1050" fill="#FAFAF8"/>
+<defs>
+<marker id="st_arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M1,1 L9,5 L1,9" fill="none" stroke="#3A3A37" stroke-width="1.8"/>
+</marker>
+</defs>
+<circle cx="420" cy="50" r="12" fill="#2C2C2A"/>
+<rect x="306.0" y="122.0" width="228" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="142" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Initiated</text>
+<text x="420" y="158" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">User starts checkout</text>
+<rect x="306.0" y="259.0" width="228" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="279" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Details</text>
+<text x="420" y="295" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">User enters card / UPI details</text>
+<rect x="310.0" y="396.0" width="220" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="416" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Validating</text>
+<text x="420" y="432" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">System validates payment details</text>
+<rect x="310.0" y="532.0" width="220" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="552" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Processing</text>
+<text x="420" y="568" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Request sent to payment gateway</text>
+<rect x="306.0" y="670.0" width="228" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="690" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Successful</text>
+<text x="420" y="706" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Transaction authorized</text>
+<rect x="310.0" y="804.0" width="220" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="824" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Completed</text>
+<text x="420" y="840" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Order confirmed &amp; receipt sent</text>
+<circle cx="420" cy="916" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="420" cy="916" r="10" fill="#2C2C2A"/>
+<rect x="23.0" y="259.0" width="194" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="120" y="279" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Cancelled</text>
+<text x="120" y="295" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">User cancelled checkout</text>
+<circle cx="120" cy="374" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="120" cy="374" r="10" fill="#2C2C2A"/>
+<rect x="20.0" y="396.0" width="200" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="120" y="416" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Invalid Details</text>
+<text x="120" y="432" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Validation failed</text>
+<rect x="625.0" y="532.0" width="210" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="730" y="552" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Payment Failed</text>
+<text x="730" y="568" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Gateway / bank declined</text>
+<rect x="625.0" y="668.0" width="210" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="730" y="688" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Refund Initiated</text>
+<text x="730" y="704" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Refund triggered automatically</text>
+<circle cx="730" cy="786" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="730" cy="786" r="10" fill="#2C2C2A"/>
+<path d="M 420,62 L 420,122.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="361.8" y="95.0" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="108.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">checkout clicked</text>
+<path d="M 306,148 L 217,148 L 217,259 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="124.6" y="189" width="90.80000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="170" y="202" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">user cancels</text>
+<path d="M 120,311.0 L 120,359 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="68.19999999999999" y="332" width="103.60000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="120" y="345" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">session closed</text>
+<path d="M 420,174.0 L 420,259.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="368.2" y="232.0" width="103.60000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="245.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">proceed to pay</text>
+<path d="M 420,311.0 L 420,396.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="368.2" y="369.0" width="103.60000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="382.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">submit details</text>
+<path d="M 310,285 L 220,285 L 220,422 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="151.4" y="327" width="97.2" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="200" y="340" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">invalid input</text>
+<path d="M 240,422 L 240,315 L 306,315 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="181.8" y="489" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="240" y="502" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">re-enter details</text>
+<path d="M 420,448.0 L 420,532.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="371.4" y="505.0" width="97.2" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="518.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">details valid</text>
+<path d="M 310,422 L 200,422 L 200,448 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="148.2" y="429" width="103.60000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="200" y="442" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">server rejects</text>
+<path d="M 420,584.0 L 420,670.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="342.6" y="643.0" width="154.8" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="656.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">authorization approved</text>
+<path d="M 530,558 L 625,558 L 625,558 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="544.4" y="517" width="161.20000000000002" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="625" y="530" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">gateway / bank declined</text>
+<path d="M 835,558 L 870,558 L 870,558 L 530,558 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="847.0" y="517" width="46.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="870" y="530" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">retry</text>
+<path d="M 730,584.0 L 730,668.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="649.4" y="641.0" width="161.20000000000002" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="730" y="654.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">partial charge detected</text>
+<path d="M 730,720.0 L 730,771 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="671.8" y="744" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="730" y="757" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">refund processed</text>
+<path d="M 420,722.0 L 420,804.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="329.8" y="777.0" width="180.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="790.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">receipt &amp; order update</text>
+<path d="M 420,856.0 L 420,901 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="400.2" y="874" width="39.6" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="887" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">done</text>
+<text x="20" y="1035" font-family="Arial" font-size="12" fill="#888780">fig: State Diagram — Online Payment System</text>
+</svg>

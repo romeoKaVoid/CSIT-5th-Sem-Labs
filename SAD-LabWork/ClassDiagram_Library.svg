@@ -1,0 +1,94 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+<rect width="1000" height="700" fill="#ffffff"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5F5E5A" stroke-width="1.6"/></marker></defs>
+<rect x="40" y="60" width="220" height="80" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="150.0" y="80.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Catalog</text>
+<line x1="40" y1="90" x2="260" y2="90" stroke="#185FA5" stroke-width="1.1"/>
+<line x1="40" y1="96" x2="260" y2="96" stroke="#185FA5" stroke-width="1.1"/>
+<text x="50" y="114" font-family="Arial" font-size="12.5" fill="#33322F">+ searchByTitle()</text>
+<text x="50" y="132" font-family="Arial" font-size="12.5" fill="#33322F">+ searchByAuthor()</text>
+<rect x="370" y="60" width="220" height="82" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="480.0" y="80.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Library</text>
+<line x1="370" y1="90" x2="590" y2="90" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="108" font-family="Arial" font-size="12.5" fill="#33322F">- libraryName : String</text>
+<line x1="370" y1="116" x2="590" y2="116" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="134" font-family="Arial" font-size="12.5" fill="#33322F">+ getCatalog()</text>
+<rect x="40" y="300" width="220" height="154" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="150.0" y="320.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Book</text>
+<line x1="40" y1="330" x2="260" y2="330" stroke="#185FA5" stroke-width="1.1"/>
+<text x="50" y="348" font-family="Arial" font-size="12.5" fill="#33322F">- ISBN : String</text>
+<text x="50" y="366" font-family="Arial" font-size="12.5" fill="#33322F">- title : String</text>
+<text x="50" y="384" font-family="Arial" font-size="12.5" fill="#33322F">- author : String</text>
+<text x="50" y="402" font-family="Arial" font-size="12.5" fill="#33322F">- genre : String</text>
+<line x1="40" y1="410" x2="260" y2="410" stroke="#185FA5" stroke-width="1.1"/>
+<text x="50" y="428" font-family="Arial" font-size="12.5" fill="#33322F">+ getDetails()</text>
+<text x="50" y="446" font-family="Arial" font-size="12.5" fill="#33322F">+ updateInfo()</text>
+<rect x="370" y="300" width="220" height="118" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="480.0" y="320.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">BookItem</text>
+<line x1="370" y1="330" x2="590" y2="330" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="348" font-family="Arial" font-size="12.5" fill="#33322F">- barcode : String</text>
+<text x="380" y="366" font-family="Arial" font-size="12.5" fill="#33322F">- isReferenceOnly : Bool</text>
+<line x1="370" y1="374" x2="590" y2="374" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="392" font-family="Arial" font-size="12.5" fill="#33322F">+ checkout()</text>
+<text x="380" y="410" font-family="Arial" font-size="12.5" fill="#33322F">+ return()</text>
+<rect x="700" y="300" width="220" height="136" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="810.0" y="320.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Member</text>
+<line x1="700" y1="330" x2="920" y2="330" stroke="#185FA5" stroke-width="1.1"/>
+<text x="710" y="348" font-family="Arial" font-size="12.5" fill="#33322F">- libraryCardNo : String</text>
+<text x="710" y="366" font-family="Arial" font-size="12.5" fill="#33322F">- name : String</text>
+<text x="710" y="384" font-family="Arial" font-size="12.5" fill="#33322F">- email : String</text>
+<line x1="700" y1="392" x2="920" y2="392" stroke="#185FA5" stroke-width="1.1"/>
+<text x="710" y="410" font-family="Arial" font-size="12.5" fill="#33322F">+ requestBook()</text>
+<text x="710" y="428" font-family="Arial" font-size="12.5" fill="#33322F">+ borrowBook()</text>
+<rect x="370" y="540" width="220" height="100" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="480.0" y="560.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Fine</text>
+<line x1="370" y1="570" x2="590" y2="570" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="588" font-family="Arial" font-size="12.5" fill="#33322F">- fineAmount : Decimal</text>
+<text x="380" y="606" font-family="Arial" font-size="12.5" fill="#33322F">- isPaid : Boolean</text>
+<line x1="370" y1="614" x2="590" y2="614" stroke="#185FA5" stroke-width="1.1"/>
+<text x="380" y="632" font-family="Arial" font-size="12.5" fill="#33322F">+ calculateFine()</text>
+<rect x="700" y="540" width="220" height="100" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="810.0" y="560.0" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#0C447C">Librarian</text>
+<line x1="700" y1="570" x2="920" y2="570" stroke="#185FA5" stroke-width="1.1"/>
+<text x="710" y="588" font-family="Arial" font-size="12.5" fill="#33322F">- employeeID : String</text>
+<line x1="700" y1="596" x2="920" y2="596" stroke="#185FA5" stroke-width="1.1"/>
+<text x="710" y="614" font-family="Arial" font-size="12.5" fill="#33322F">+ addBookItem()</text>
+<text x="710" y="632" font-family="Arial" font-size="12.5" fill="#33322F">+ checkoutBook()</text>
+<path d="M 260,100 L 370,100 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="276" y="92" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="356" y="92" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="315.0" y="84" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">has</text>
+<path d="M 480.0,142 L 480.0,300 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="496.0" y="156" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="502.0" y="292" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="446.0" y="221.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">owns</text>
+<path d="M 590,101.0 L 810.0,101.0 L 810.0,300 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="604" y="91.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="840.0" y="290" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="700.0" y="89.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">registers</text>
+<path d="M 150.0,140 L 150.0,300 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="166.0" y="154" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="172.0" y="292" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="112.0" y="220.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">indexes</text>
+<path d="M 260,330 L 370,330 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="274" y="322" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="348" y="322" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="315.0" y="314" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">copies as</text>
+<path d="M 590,380 L 700,380 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="604" y="372" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="678" y="372" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="645.0" y="364" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">borrows</text>
+<path d="M 810.0,540 L 810.0,436 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="826.0" y="528" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="832.0" y="450" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="854.0" y="488.0" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">manages</text>
+<path d="M 810.0,540 L 810.0,480 L 430,480 L 430,418 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="824.0" y="528" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="396" y="434" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..*</text>
+<text x="730" y="470" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">checks out</text>
+<path d="M 530,418 L 530,540 " fill="none" stroke="#5F5E5A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="546" y="432" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">1</text>
+<text x="552" y="532" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="normal" fill="#444441">0..1</text>
+<text x="546" y="515" text-anchor="middle" font-family="Arial" font-size="11" font-style="italic" font-weight="600" fill="#185FA5">incurs</text>
+<text x="30" y="685" font-family="Arial" font-size="12" fill="#888780">fig: Class Diagram — Library Management System</text>
+</svg>

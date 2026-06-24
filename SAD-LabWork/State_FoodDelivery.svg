@@ -1,0 +1,84 @@
+<svg width="980" height="980" viewBox="0 0 980 980" xmlns="http://www.w3.org/2000/svg">
+<rect width="980" height="980" fill="#FAFAF8"/>
+<defs>
+<marker id="st_arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M1,1 L9,5 L1,9" fill="none" stroke="#3A3A37" stroke-width="1.8"/>
+</marker>
+</defs>
+<circle cx="420" cy="50" r="12" fill="#2C2C2A"/>
+<rect x="307.0" y="122.0" width="226" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="142" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Order Placed</text>
+<text x="420" y="158" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Customer places the order</text>
+<rect x="303.0" y="254.0" width="234" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="274" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Order Confirmed</text>
+<text x="420" y="290" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Restaurant accepts the order</text>
+<rect x="310.0" y="386.0" width="220" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="406" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Preparing Order</text>
+<text x="420" y="422" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Restaurant is cooking</text>
+<rect x="305.0" y="522.0" width="230" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="542" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Out for Delivery</text>
+<text x="420" y="558" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Rider picks up, on the way</text>
+<rect x="316.0" y="664.0" width="208" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="420" y="684" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Delivered</text>
+<text x="420" y="700" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Order handed to customer</text>
+<circle cx="420" cy="776" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="420" cy="776" r="10" fill="#2C2C2A"/>
+<rect x="33.0" y="254.0" width="194" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="130" y="274" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Rejected</text>
+<text x="130" y="290" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Restaurant rejected order</text>
+<circle cx="130" cy="370" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="130" cy="370" r="10" fill="#2C2C2A"/>
+<rect x="30.0" y="454.0" width="200" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="130" y="474" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Cancelled</text>
+<text x="130" y="490" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Customer / system cancelled</text>
+<circle cx="130" cy="570" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="130" cy="570" r="10" fill="#2C2C2A"/>
+<rect x="605.0" y="594.0" width="210" height="52" rx="26" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<text x="710" y="614" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Delivery Failed</text>
+<text x="710" y="630" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#3A6A9C" font-style="italic">Rider could not deliver</text>
+<circle cx="710" cy="716" r="15" fill="none" stroke="#2C2C2A" stroke-width="1.8"/>
+<circle cx="710" cy="716" r="10" fill="#2C2C2A"/>
+<path d="M 420,62 L 420,122.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="365.0" y="95.0" width="110.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="108.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">order submitted</text>
+<path d="M 420,174.0 L 420,254.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="365.0" y="227.0" width="110.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="240.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">payment success</text>
+<path d="M 307,148 L 227,148 L 227,254 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="162.4" y="194" width="129.2" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="227" y="207" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">restaurant rejects</text>
+<path d="M 130,306.0 L 130,355 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="97.4" y="328" width="65.2" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="130" y="341" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">notified</text>
+<path d="M 303,280 L 230,280 L 230,454 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="171.8" y="362" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="230" y="375" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">customer cancels</text>
+<path d="M 310,412 L 230,412 L 230,506 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="171.8" y="437" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="230" y="450" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">customer cancels</text>
+<path d="M 130,506.0 L 130,555 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="84.6" y="528" width="90.80000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="130" y="541" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">order closed</text>
+<path d="M 420,306.0 L 420,386.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="352.2" y="359.0" width="135.60000000000002" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="372.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">restaurant accepted</text>
+<path d="M 420,438.0 L 420,522.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="326.6" y="495.0" width="186.8" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="508.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">food ready / rider assigned</text>
+<path d="M 420,574.0 L 420,664.0 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="361.8" y="637.0" width="116.4" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="650.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">delivery success</text>
+<path d="M 535,548 L 605,548 L 605,620 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="524.4" y="572" width="161.20000000000002" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="605" y="585" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">delivery attempt failed</text>
+<path d="M 815,620 L 850,620 L 850,548 L 535,548 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="827.0" y="571" width="46.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="850" y="584" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">retry</text>
+<path d="M 710,646.0 L 710,701 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="639.0" y="674" width="142.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="710" y="687" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">marked undeliverable</text>
+<path d="M 420,716.0 L 420,761 " fill="none" stroke="#3A3A37" stroke-width="1.6" marker-end="url(#st_arrow)"/>
+<rect x="368.2" y="734" width="103.60000000000001" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="420" y="747" text-anchor="middle" font-family="Arial" font-size="11.5" font-style="italic" font-weight="600" fill="#444">order complete</text>
+<text x="20" y="965" font-family="Arial" font-size="12" fill="#888780">fig: State Diagram — Food Delivery System</text>
+</svg>

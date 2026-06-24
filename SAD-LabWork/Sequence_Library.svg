@@ -1,0 +1,54 @@
+<svg width="1080" height="960" viewBox="0 0 1080 960" xmlns="http://www.w3.org/2000/svg">
+<rect width="1080" height="960" fill="#ffffff"/>
+<defs>
+<marker id="sa_solid" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3A3A37"/></marker>
+<marker id="sa_open" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#3A3A37" stroke-width="1.6"/></marker>
+</defs>
+<rect x="30.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="110" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Student</text>
+<line x1="110" y1="72" x2="110" y2="920" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="300.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="380" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Librarian</text>
+<line x1="380" y1="72" x2="380" y2="920" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="580.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="660" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Library System</text>
+<line x1="660" y1="72" x2="660" y2="920" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<rect x="860.0" y="30" width="160" height="42" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.4"/>
+<text x="940" y="56.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0C447C">Book Database</text>
+<line x1="940" y1="72" x2="940" y2="920" stroke="#A9A79E" stroke-width="1.3" stroke-dasharray="4,4"/>
+<line x1="110" y1="110" x2="380" y2="110" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="245.0" y="102" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">1: Request book</text>
+<line x1="380" y1="165" x2="660" y2="165" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="520.0" y="157" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">2: Search book</text>
+<line x1="660" y1="220" x2="940" y2="220" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="800.0" y="212" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">3: Check availability</text>
+<line x1="940" y1="275" x2="660" y2="275" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="800.0" y="267" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">4: Availability result</text>
+<line x1="660" y1="365" x2="380" y2="365" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="357" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">5: Book available</text>
+<line x1="380" y1="415" x2="110" y2="415" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="245.0" y="407" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">6: Request library card</text>
+<line x1="110" y1="465" x2="380" y2="465" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="245.0" y="457" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">7: Submit library card</text>
+<line x1="380" y1="515" x2="660" y2="515" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="520.0" y="507" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">8: Verify member status</text>
+<line x1="660" y1="565" x2="380" y2="565" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="557" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">9: Member valid</text>
+<line x1="380" y1="615" x2="660" y2="615" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="520.0" y="607" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">10: Issue book</text>
+<line x1="660" y1="665" x2="940" y2="665" stroke="#3A3A37" stroke-width="1.5" marker-end="url(#sa_solid)"/>
+<text x="800.0" y="657" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">11: Update record (issued, due date)</text>
+<line x1="380" y1="715" x2="110" y2="715" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="245.0" y="707" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">12: Hand over book</text>
+<line x1="660" y1="810" x2="380" y2="810" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="520.0" y="802" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">5: Book not available</text>
+<line x1="380" y1="860" x2="110" y2="860" stroke="#3A3A37" stroke-width="1.5" stroke-dasharray="7,4" marker-end="url(#sa_open)"/>
+<text x="245.0" y="852" text-anchor="middle" font-family="Arial" font-size="11.5" fill="#222">6: Inform not available</text>
+<rect x="60" y="315" width="980" height="580" fill="none" stroke="#5B5A55" stroke-width="1.3"/>
+<path d="M60,315 h42 v14 l-8,8 h-34 z" fill="#FFF3D6" stroke="#9C7A2E" stroke-width="1.2"/>
+<text x="68" y="330" font-family="Arial" font-size="11" font-weight="700" fill="#6B5320">alt</text>
+<text x="112" y="330" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[book available]</text>
+<line x1="60" y1="760" x2="1040" y2="760" stroke="#5B5A55" stroke-width="1.1" stroke-dasharray="7,4"/>
+<text x="70" y="775" font-family="Arial" font-size="11.5" font-style="italic" fill="#333">[book not available]</text>
+<text x="20" y="945" font-family="Arial" font-size="12" fill="#888780">fig: Sequence Diagram — Borrowing a Book from Library</text>
+</svg>
